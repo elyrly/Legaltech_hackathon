@@ -16,10 +16,10 @@ class AttachmentsController < ApplicationController
 
     if @attachment.save
         flash[:notice] = "Thank you for your submission..."
-        redirect_to pdf_path
+        redirect_to
     else
         flash[:error] = "There was a problem submitting your attachment."
-        render :action => root_url
+
     end
   end
 end

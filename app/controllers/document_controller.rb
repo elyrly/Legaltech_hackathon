@@ -8,4 +8,7 @@ class DocumentController < ApplicationController
   def pdf
   end
 
+  def json
+  end
+
 end

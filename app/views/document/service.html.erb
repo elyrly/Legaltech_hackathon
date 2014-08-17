@@ -36,11 +36,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">SP<i class="fa fa-circle"></i>T</a>
+          <a class="navbar-brand" href="#">JD<i class="fa fa-circle"></i>CS</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">HOME</a></li>
+            <li><a href="/">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li class="active"><a href="services.html">SERVICES</a></li>
             <li><a href="works.html">WORKS</a></li>
@@ -54,8 +54,8 @@
     <div class="container">
       <div class="row centered">
         <div class="col-lg-8 col-lg-offset-2">
-        <h4>WE CAN DO A LOT OF THINGS</b></h4>
-        <p>JUST TAKE A LOOK & CONTACT US</p>
+        <h4>GOT A PDF?</h4>
+        <h4>WITH JDOCS, YOU'VE GOT DATA</h4>
         </div>
       </div><!-- row -->
     </div><!-- container -->
@@ -67,42 +67,26 @@
       <br><br>
       <div class="col-lg-4">
         <i class="fa fa-desktop"></i>
-        <h4>WEB DESIGN</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        <h4>WEB PLATFORM</h4>
+        <p>With our web platform, you can automatically upload and convert your PDFs to structured data.</p>
       </div><!-- col-lg-4 -->
 
       <div class="col-lg-4">
         <i class="fa fa-cogs"></i>
-        <h4>WEB DEVELOPMENT</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        <h4>BEST IN CLASS</h4>
+        <p>We've always been at the top of the class. And with JDocs, you can be assured that your PDFs are being given best-in-class character recognition.</p>
       </div><!-- col-lg-4 -->
 
       <div class="col-lg-4">
         <i class="fa fa-eye"></i>
-        <h4>SEO SERVICES</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        <h4>SEARCH</h4>
+        <p>Got plain-text PDFs that you'd like to search? Our structuring technology turns walls of text into searchable chapters, page numbers, headings, and document types.</p>
       </div><!-- col-lg-4 -->
     </div><!-- row -->
     <br>
     <div class="row centered">
       <br><br>
-      <div class="col-lg-4">
-        <i class="fa fa-heart"></i>
-        <h4>SOCIAL MEDIA</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-      </div><!-- col-lg-4 -->
 
-      <div class="col-lg-4">
-        <i class="fa fa-shopping-cart"></i>
-        <h4>E-COMMERCE</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-      </div><!-- col-lg-4 -->
-
-      <div class="col-lg-4">
-        <i class="fa fa-cloud"></i>
-        <h4>CLOUD SERVICES</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-      </div><!-- col-lg-4 -->
     </div><!-- row -->
   </div><!-- container -->
 
@@ -111,27 +95,7 @@
   <div id="dg">
     <div class="container">
       <div class="row centered">
-        <h4>PRICING PLANS</h4>
-        <br>
-        <div class="col-lg-4">
-                    <!-- START PRICING TABLE -->
-                    <div class="pricing-option">
-                        <div class="pricing-top">
-                            <span class="pricing-edition">Starter</span>
-                            <span class="price">
-                                <sup>$</sup>
-                                <span class="price-amount">19</span>
-                                <small>/mo</small>
-                            </span>
-                        </div>
-                        <ul>
-                            <li><strong>10GB</strong> Storage</li>
-                            <li>Up to <strong>10</strong> Users</li>
-                            <li><strong>20,000</strong> API Calls</li>
-                            <li><strong>Free</strong> Setup</li>
-                            <li><strong>1-year</strong> Free support *</li>
-                        </ul>
-                        <a href="index.html#" class="pricing-signup" data-toggle="modal" data-target="#demo">Demo</a>
+                        <a href="index.html#" class="pricing-signup" data-toggle="modal" data-target="#demo"><button type="button" class="btn btn-default btn-lg">Demo</button></a>
 
 
 
@@ -141,22 +105,25 @@
   <div class="modal-dialog">
     <div class="modal-content">
     <p>
-<h2>Import Products</h2>
-<%= form_tag({:controller => 'attachments', :action => 'create'}, :multipart => true) do %>
+<h2>Import PDF</h2>
 
 <div class="field">
   <%= label_tag :file %>
   <%= file_field_tag :file %>
-</div>
-<div class="actions">
-  <%= submit_tag 'Submit' %>
-</div>
-<% end %>
 
-    </p>
+
+
+<a href="/import"><button  >Submit</button></a>
+<br>
+<br>
+</div>
+
   </div>
-      <div class="modal-header">
-    </div>
+
+
+
+
+
 
 
 
@@ -164,28 +131,6 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -205,7 +150,7 @@
     <div class="container">
       <div class="row centered">
         <div class="col-lg-8 col-lg-offset-2">
-          <h4>WE ARE STORYTELLERS. BRANDS ARE OUR SUBJECTS. DESIGN IS OUR VOICE.</h4>
+          <h4>EASE OF USE</h4>
           <p>We believe ideas come from everyone, everywhere. At BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths drive us, motivate us, and ultimately help us redefine the power of design.</p>
         </div>
       </div><!-- row -->
